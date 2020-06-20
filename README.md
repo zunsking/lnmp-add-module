@@ -9,10 +9,10 @@
 
 <h2>1.全新安装</h2>
 <hr>
-一键全新安装带ngx_http_substitutions_filter_module模块的lnmp环境。</br></br>
+一键全新安装带ngx_http_substitutions_filter_module和ngx_cache_purge模块的lnmp环境。</br></br>
 
 <b>提示:</b><br>
-1. 如lnmp版本更新请自行更改<code>lnmp-sub.sh</code>中3处对应的lnmp1.6版本号后再执行安装
+1. 如lnmp版本已更新至lnmp1.7
 2. CentOS请将<code>lnmp-sub.sh</code>中对应的<code>apt-get</code>改为<code>yum</code>后再执行安装
 3. 如果只需要安装Nginx，请将<code>lnmp-sub.sh</code>中最后一行<code>./install.sh lnmp</code>替换为<code>./install.sh nginx</code>
 
