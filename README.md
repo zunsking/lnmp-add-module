@@ -4,7 +4,8 @@
 
 <b>源码:</b><br>
 1. lnmp一键安装包：https://github.com/licess/lnmp
-2. ngx_http_substitutions_filter_module模块：https://github.com/yaoweibin/ngx_http_substitutions_filter_module</br></br>
+2. ngx_http_substitutions_filter_module模块：https://github.com/yaoweibin/ngx_http_substitutions_filter_module
+3. ngx_cache_purge模块：https://github.com/FRiCKLE/ngx_cache_purge</br></br>
 
 <h2>1.全新安装</h2>
 <hr>
