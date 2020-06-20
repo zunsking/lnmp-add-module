@@ -49,7 +49,7 @@ sed -i "s:Nginx_Modules_Options='':Nginx_Modules_Options='--add-module=/usr/loca
 ./upgrade.sh nginx
 #输入一个最新的或者目前的Nginx版本号后回车执行
 </pre>
-如果<code>unzip master.zip</code>解压失败，执行<code>apt-get install zip unzip</code>后再进行解压。<br><br>
+<br><br>
 
 <b>其它</b><br>
 如需增加其它模块，方法类似，官方模块和第三方模块格式稍有差别。<br>
