@@ -44,7 +44,7 @@ server {
 cd /usr/local
 wget https://github.com/yaoweibin/ngx_http_substitutions_filter_module/archive/master.zip
 unzip master.zip
-cd /root/lnmp1.6
+cd /root/lnmp1.7
 sed -i "s:Nginx_Modules_Options='':Nginx_Modules_Options='--add-module=/usr/local/ngx_http_substitutions_filter_module-master':" lnmp.conf
 ./upgrade.sh nginx
 #输入一个最新的或者目前的Nginx版本号后回车执行
