@@ -5,8 +5,7 @@
 <b>源码:</b><br>
 1. lnmp一键安装包：https://github.com/licess/lnmp
 2. ngx_http_substitutions_filter_module模块：https://github.com/yaoweibin/ngx_http_substitutions_filter_module
-3. ngx_cache_purge模块：https://github.com/FRiCKLE/ngx_cache_purge
-4. 建议在<code>screen</code>中安装：<code>apt-get install screen -y</code>，然后<code>screen -S lnmp</code>，再执行安装脚本。</br></br>
+3. ngx_cache_purge模块：https://github.com/FRiCKLE/ngx_cache_purge</br></br>
 
 <h2>1.全新安装</h2>
 <hr>
@@ -16,6 +15,7 @@
 1. lnmp版本已更新至lnmp1.7
 2. CentOS请将<code>lnmp-sub.sh</code>中对应的<code>apt-get</code>改为<code>yum</code>后再执行安装
 3. 如果只需要安装Nginx，请将<code>lnmp-sub.sh</code>中最后一行<code>./install.sh lnmp</code>替换为<code>./install.sh nginx</code>
+4. 建议在<code>screen</code>中安装：<code>apt-get install screen -y</code>，然后<code>screen -S lnmp</code>，再执行安装脚本。</br></br>
 
 <b>安装:</b>
 <pre>
