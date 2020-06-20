@@ -42,10 +42,10 @@ server {
 根目录下逐步执行：
 <pre>
 cd /usr/local
-wget https://github.com/yaoweibin/ngx_http_substitutions_filter_module/archive/master.zip
-unzip master.zip
+git clone git://github.com/FRiCKLE/ngx_cache_purge.git
+git clone git://github.com/yaoweibin/ngx_http_substitutions_filter_module
 cd /root/lnmp1.7
-sed -i "s:Nginx_Modules_Options='':Nginx_Modules_Options='--add-module=/usr/local/ngx_http_substitutions_filter_module-master':" lnmp.conf
+sed -i "s:Nginx_Modules_Options='':Nginx_Modules_Options='--add-module=/usr/local/ngx_http_substitutions_filter_module --add-module=/usr/local/ngx_cache_purge':" lnmp.conf
 ./upgrade.sh nginx
 #输入一个最新的或者目前的Nginx版本号后回车执行
 </pre>
