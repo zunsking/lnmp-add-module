@@ -18,7 +18,7 @@
 
 <b>安装:</b>
 <pre>
-wget https://raw.githubusercontent.com/zunsking/lnmp-ngx_http_substitutions_filter_module-/master/lnmp-sub.sh
+wget https://raw.githubusercontent.com/zunsking/lnmp-ngx_http_substitutions_filter_module/master/lnmp-sub.sh
 chmod +x lnmp-sub.sh
 ./lnmp-sub.sh
 </pre>
