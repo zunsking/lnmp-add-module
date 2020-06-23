@@ -14,7 +14,7 @@ sed -i "s:Nginx_Modules_Options='':Nginx_Modules_Options='--add-module=/usr/loca
 #./install.sh lnmp
 echo "Choose install:"
 echo ""
-echo " 1: Insatall full LNMP"
+echo " 1: Install full LNMP"
 echo " 2: Only install Nginx"
 echo ""
 read -p "(Directly Enter to cancel), Enter 1 or 2:" install
