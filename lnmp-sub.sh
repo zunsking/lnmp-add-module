@@ -12,6 +12,7 @@ wget http://soft.vpser.net/lnmp/lnmp1.7.tar.gz -cO lnmp1.7.tar.gz && tar zxf lnm
 cd lnmp1.7
 sed -i "s:Nginx_Modules_Options='':Nginx_Modules_Options='--add-module=/usr/local/ngx_http_substitutions_filter_module --add-module=/usr/local/ngx_cache_purge --add-module=/usr/local/headers-more-nginx-module':" lnmp.conf
 #./install.sh lnmp
+chmod +x *.sh
 echo "Choose install:"
 echo ""
 echo " 1: Install full LNMP"
