@@ -1,11 +1,12 @@
 # lnmp一键安装包增加ngx_http_substitutions_filter_module模块/ngx_cache_purge模块
 
-添加<code>ngx_http_substitutions_filter_module</code>/<code>ngx_cache_purge</code>模块到lnmp一键安装包的<code>/lnmp1.6/lnmp.conf</code>文件的<pre>Nginx_Modules_Options=''</pre>配置中，并执行lnmp一键安装。以便实现Nginx反向代理替换和缓存清除功能。
+添加额外的模块到LNMP中。
 
-<b>源码:</b><br>
+<b>源码 / 模块:</b><br>
 1. lnmp一键安装包：https://github.com/licess/lnmp
 2. ngx_http_substitutions_filter_module模块：https://github.com/yaoweibin/ngx_http_substitutions_filter_module
 3. ngx_cache_purge模块：https://github.com/FRiCKLE/ngx_cache_purge</br></br>
+4. headers-more-nginx-module模块：https://github.com/openresty/headers-more-nginx-module
 
 <h2>1.全新安装</h2>
 <hr>
