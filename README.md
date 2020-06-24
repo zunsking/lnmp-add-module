@@ -5,8 +5,8 @@
 <b>源码 / 模块:</b><br>
 1. lnmp一键安装包：https://github.com/licess/lnmp
 2. ngx_http_substitutions_filter_module模块：https://github.com/yaoweibin/ngx_http_substitutions_filter_module
-3. ngx_cache_purge模块：https://github.com/FRiCKLE/ngx_cache_purge</br></br>
-4. headers-more-nginx-module模块：https://github.com/openresty/headers-more-nginx-module
+3. ngx_cache_purge模块：https://github.com/FRiCKLE/ngx_cache_purge
+4. headers-more-nginx-module模块：https://github.com/openresty/headers-more-nginx-module</br></br>
 
 <h2>1.全新安装</h2>
 <hr>
