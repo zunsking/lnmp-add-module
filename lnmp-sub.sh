@@ -16,13 +16,22 @@ chmod +x *.sh
 echo "Choose install:"
 echo ""
 echo " 1: Install full LNMP"
-echo " 2: Only install Nginx"
+echo " 2: Install full LAMP"
+echo " 3: Install full LNMPA"
+echo " 4: Only install Nginx"
+echo " 5: Only install DB"
 echo ""
 read -p "(Directly Enter to cancel), Enter 1 or 2:" install
 if [[ '1' = "$install" ]]; then
     eval "./install.sh lnmp"
 elif [[ '2' = "$install" ]]; then
+    eval "./install.sh lamp"
+elif [[ '3' = "$install" ]]; then
+    eval "./install.sh lnmpa"
+elif [[ '4' = "$install" ]]; then
     eval "./install.sh nginx"
+elif [[ '5' = "$install" ]]; then
+    eval "./install.sh db"
 else
     echo "Install canceled."
     exit
