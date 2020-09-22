@@ -21,7 +21,7 @@ echo " 3: Install full LNMPA"
 echo " 4: Only install Nginx"
 echo " 5: Only install DB"
 echo ""
-read -p "(Directly Enter to cancel), Enter 1 or 2:" install
+read -p "(Directly Enter to cancel), Enter 1 or 2,3,4,5:" install
 if [[ '1' = "$install" ]]; then
     eval "./install.sh lnmp"
 elif [[ '2' = "$install" ]]; then
