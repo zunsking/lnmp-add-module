@@ -2,6 +2,8 @@
 ############### Debian install lnmp and add ngx_http_substitutions_filter_module ###############
 #Author:https://github.com/zunsking
 ####################### END #######################
+apt update && apt upgrade -y
+##
 apt-get install wget zip unzip git -y
 cd /usr/local
 git clone git://github.com/FRiCKLE/ngx_cache_purge.git
