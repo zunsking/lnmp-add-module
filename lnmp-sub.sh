@@ -40,4 +40,3 @@ else
     echo "Install canceled."
     exit
 fi
-rm -rf lnmp-sub.sh
