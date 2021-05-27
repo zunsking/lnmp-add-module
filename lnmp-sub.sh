@@ -11,6 +11,7 @@ git clone git://github.com/yaoweibin/ngx_http_substitutions_filter_module
 git clone git://github.com/openresty/headers-more-nginx-module.git
 cd
 wget https://raw.githubusercontent.com/zunsking/lnmp-add-module/master/bakup/backup.sh
+wget https://raw.githubusercontent.com/zunsking/lnmp-add-module/master/fail2ban.sh
 wget http://soft.vpser.net/lnmp/lnmp1.7.tar.gz -cO lnmp1.7.tar.gz && tar zxf lnmp1.7.tar.gz
 cd lnmp1.7
 sed -i "s:Nginx_Modules_Options='':Nginx_Modules_Options='--add-module=/usr/local/ngx_http_substitutions_filter_module --add-module=/usr/local/ngx_cache_purge --add-module=/usr/local/headers-more-nginx-module':" lnmp.conf
