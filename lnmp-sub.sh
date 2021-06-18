@@ -40,3 +40,7 @@ else
     echo "Install canceled."
     exit
 fi
+cd tools
+. fail2ban.sh
+sed -i "s:server_name _;:server_name _;\nreturn 444;:" /usr/local/nginx/conf/nginx.conf
+lnmp nginx restart
