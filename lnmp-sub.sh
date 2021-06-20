@@ -13,7 +13,9 @@ cd
 wget https://raw.githubusercontent.com/zunsking/lnmp-add-module/master/bakup/backup.sh
 #wget https://raw.githubusercontent.com/zunsking/lnmp-add-module/master/fail2ban.sh
 wget http://soft.vpser.net/lnmp/lnmp1.7.tar.gz -cO lnmp1.7.tar.gz && tar zxf lnmp1.7.tar.gz
-cd lnmp1.7
+cd lnmp1.7/tools
+sed -i 's#maxretry = 5#maxretry = 2#g' fail2ban.sh
+cd ..
 sed -i "s:Nginx_Modules_Options='':Nginx_Modules_Options='--add-module=/usr/local/ngx_http_substitutions_filter_module --add-module=/usr/local/ngx_cache_purge --add-module=/usr/local/headers-more-nginx-module':" lnmp.conf
 #./install.sh lnmp
 chmod +x *.sh
@@ -40,9 +42,11 @@ else
     echo "Install canceled."
     exit
 fi
-#install fail2ban...
+#install fail2ban
+echo "install fail2ban..."
 cd tools
 . fail2ban.sh
 #deny ip:80
+echo "deny ip:80..."
 sed -i "s:server_name _;:server_name _;\n return 444;:" /usr/local/nginx/conf/nginx.conf
 lnmp nginx restart
