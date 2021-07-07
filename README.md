@@ -22,6 +22,10 @@
 wget https://raw.githubusercontent.com/zunsking/lnmp-ngx_http_substitutions_filter_module/master/lnmp-sub.sh
 chmod +x lnmp-sub.sh
 ./lnmp-sub.sh
+#centos
+wget https://raw.githubusercontent.com/zunsking/lnmp-add-module/master/lnmp-sub-centos.sh
+chmod +x lnmp-sub-centos.sh
+./lnmp-sub-centos.sh
 </pre>
 
 <b>例子</b>
