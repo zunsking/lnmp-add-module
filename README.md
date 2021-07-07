@@ -17,12 +17,15 @@
 2. CentOS请将<code>lnmp-sub.sh</code>中对应的<code>apt-get</code>改为<code>yum</code>后再执行安装
 3. 建议在<code>screen</code>中安装：<code>apt-get install screen -y</code>，然后<code>screen -S lnmp</code>，再执行安装脚本。</br></br>
 
-<b>安装:</b>
+<b>安装:</b><br>
+<b>#Debian9/10</b><br>
 <pre>
 wget https://raw.githubusercontent.com/zunsking/lnmp-ngx_http_substitutions_filter_module/master/lnmp-sub.sh
 chmod +x lnmp-sub.sh
 ./lnmp-sub.sh
-#centos
+</pre>
+<b>#Centos7+</b><br>
+<pre>
 wget https://raw.githubusercontent.com/zunsking/lnmp-add-module/master/lnmp-sub-centos.sh
 chmod +x lnmp-sub-centos.sh
 ./lnmp-sub-centos.sh
