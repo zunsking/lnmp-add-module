@@ -2,7 +2,7 @@
 ############### Debian install lnmp and add ngx_http_substitutions_filter_module ###############
 #Author:https://github.com/zunsking
 ####################### END #######################
-yum update && yum upgrade -y
+#yum update && yum upgrade -y
 ##
 yum install wget zip unzip git -y
 cd /usr/local
