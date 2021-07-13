@@ -20,15 +20,11 @@
 <b>安装:</b><br>
 <b>#Debian9/10</b><br>
 <pre>
-wget https://raw.githubusercontent.com/zunsking/lnmp-ngx_http_substitutions_filter_module/master/lnmp-sub.sh
-chmod +x lnmp-sub.sh
-./lnmp-sub.sh
+bash <(wget -qO- https://raw.githubusercontent.com/zunsking/lnmp-ngx_http_substitutions_filter_module/master/lnmp-sub.sh)
 </pre>
 <b>#Centos7+</b><br>
 <pre>
-wget https://raw.githubusercontent.com/zunsking/lnmp-add-module/master/lnmp-sub-centos.sh
-chmod +x lnmp-sub-centos.sh
-./lnmp-sub-centos.sh
+bash <(wget -qO- https://raw.githubusercontent.com/zunsking/lnmp-add-module/master/lnmp-sub-centos.sh)
 </pre>
 
 <b>例子</b>
